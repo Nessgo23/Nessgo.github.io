@@ -1,0 +1,70 @@
+*,
+html,
+body {
+      padding: 0;
+      margin: 0;
+    }
+
+:root {
+    --nav-color : rgb(189, 187, 69, 0.5);
+}
+
+.navbar {
+    background-color: var(--nav-color);
+    position: sticky;
+}
+
+a {
+    font-weight: 600;
+}
+
+.navbar-nav {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#hero {
+    background: url(BG.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.hero-tag {
+    margin: 30px;
+}
+
+.hero-tag p {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.hero-tag h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(243, 247, 17);
+    text-shadow: 3px 4px 5px rgb(0, 0, 0);
+}
+
+#Layanan {
+    background: linear-gradient(40deg, green, black);
+    height: auto;
+}
+
+.accordion {
+    padding-top: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 3em;
+}
+
+.footer {
+    background-color: #000;
+    text-align: center;
+    padding: 15px 100px 15px 100px;
+  }
+
